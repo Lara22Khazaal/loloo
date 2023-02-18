@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,500&display=swap');
+
+
+/* ********************* Start header ********************* */ 
+body{
+    font-family: 'Cairo', sans-serif;
+    height: 4500px;
+}
+.header{
+    background-color: rgb(54, 94, 94);
+    height: 50px;
+    line-height: 50px;
+    color:white
+}
+.header a{
+    float: right;
+    margin-top: 5px;
+}
+/* ********************* End header ********************* */ 
+
+
+
+/* ********************* Start Slider ********************* */ 
+.carousel-indicators li{
+    height: 15px;
+    background-color: rgb(121, 114, 114);
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(196, 68, 68, 0.185);
+    position: absolute;
+    z-index: 1;
+}
+/* ********************* End Slider ********************* */ 
+
+
+
+/* **********************strat feutures******************** */
+.feutures{
+    margin-top: 80px;
+}
+.feutures i{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(82, 182, 185);
+    line-height: 100px;
+    color: white;
+    font-size: 50px;
+}
+.feutures h3{
+    color: rgb(168, 88, 82);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.feutures p{
+    color: rgb(110, 96, 96);
+    line-height: 1.8;
+}
+
+.feutures H2{
+    font-size: 35PX;
+    margin-bottom: 30PX;
+}
+/* **********************End feutures******************** */
+
+
+/* **********************Start our team******************** */
+.card-body a i{
+    font-size: 25px;
+}
+
+.our-team{
+    border-bottom: 3px solid rgb(82, 182 , 185);
+    padding: 40px;
+    background-image: url('../images/bkg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #eee
+}
+/* **********************End our team******************** */
+
+
+/* **********************start statistic******************** */
+.statistic{
+    margin-top: 100px;
+    width: 100%;
+    height: 640px;
+    background-image:url('../images/statistic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.statistic .overlay{
+    padding-top: 280px;
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 100%;
+    height: 100%;
+}
+
+.statistic .overlay h3{
+    color: white;
+    font-size: 40px;
+}
+
+.statistic .overlay p{
+    color: white;
+    font-size: 35px;
+}
+/* **********************End statistic******************** */
+
+
+
+/* **********************start our customers******************** */
+.Our_Customers{
+    margin-top: 100px;
+    background-color: #eee;
+    line-height: 250px;
+    background-image: url('../images/bkg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid rgb(82, 182 , 185);
+}
+/* **********************End our customers******************** */
+
+
+/* ********************** start recent_news******************** */
+.Recent_News .btn-danger{
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+
+.Recent_News .btn-danger:hover{
+    background-color: red;
+}
+/* **********************End recent_news******************** */
+
+
+/* ********************** start footer******************** */
+footer{
+    padding-top:30px;
+    background-color: rgb(82, 182, 185);
+    margin-top: 100px;
+}
+
+footer p{
+    color: white;
+}
+
+footer h2{
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: black;
+}
+
+footer ul li{
+    list-style: none;
+}
+/* **********************End footer******************** */
+
+
+.jumbotron{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron .blog_info{
+    flex: 2;
+}
+
+.jumbotron .blog_image{
+    flex: 1;
+}
+
+.blog_details{
+    line-height: 2;
+    padding: 10px;
+  
+}
+
+.courses img:hover{
+    transform: scale(1.1);
+    
+}
+
+
